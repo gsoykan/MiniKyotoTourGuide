@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Project5TourGuideApp</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="card_image_view_description">There should be an image for entertainment purposes</string>
+    <string name="fushimi_inari_shrine_text">Fushimi Inari Shrine</string>
+    <string name="fushimi_inari_shrine_description">Fushimi Inari Shrine (伏見稲荷大社, Fushimi Inari Taisha) is an important Shinto shrine in southern Kyoto. It is famous for its thousands of vermilion torii gates, which straddle a network of trails behind its main buildings. The trails lead into the wooded forest of the sacred Mount Inari, which stands at 233 meters and belongs to the shrine grounds.</string>
+    <string name="kinkakuji_text">Kinkakuji</string>
+    <string name="kinkakuji_description">Kinkakuji (金閣寺, Golden Pavilion) is a Zen temple in northern Kyoto whose top two floors are completely covered in gold leaf. Formally known as Rokuonji, the temple was the retirement villa of the shogun Ashikaga Yoshimitsu, and according to his will it became a Zen temple of the Rinzai sect after his death in 1408. Kinkakuji was the inspiration for the similarly named Ginkakuji (Silver Pavilion), built by Yoshimitsu\'s grandson, Ashikaga Yoshimasa, on the other side of the city a few decades later.</string>
+    <string name="attraction_attraction_tab_text">MAIN ATTRACTIONS</string>
+    <string name="attraction_food_tab_text">FOOD</string>
+    <string name="kaisekai_ryori_text">Kaiseki Ryori</string>
+    <string name="kaisekai_ryori_description">Kaiseki ryori has its origin in the traditional tea ceremony, but later evolved into an elaborate dining style popular among aristocratic circles. Kyoto style kaiseki ryori (kyo kaiseki) is particularly refined, placing an emphasis on subtle flavors and local and seasonal ingredients. A kaiseki meal has a prescribed order of courses which is determined by the cooking method of each dish.</string>
+    <string name="shojin_ryori_text">Shojin Ryori</string>
+    <string name="shojin_ryori_description">Whereas kaiseki developed out of the affluence of the aristocrats, shojin ryori developed from the austerity of Buddhist monks. Prohibited from taking the life of other living creatures, Buddhist monks had to make do without meat or fish in their diet. Consisting of strictly vegetarian dishes, shojin ryori can nonetheless be savory and filling. Travelers who spend the night at a temple lodging will be able to enjoy a meal as part of the stay.</string>
+    <string name="kyoto_national_museum_text">Kyoto National Museum</string>
+    <string name="kyoto_national_museum_description">Opened in 1897, the Kyoto National Museum (京都国立博物館, Kyōto Kokuritsu Hakubutsukan) is one of Japan\'s oldest and most distinguished museums. It is one of only four top-level national museums alongside the Tokyo National Museum, Nara National Museum and Kyushu National Museum.
+
+The museum\'s permanent collection is presented to the public in rotating exhibitions and consists of a wide variety of cultural properties, including archaeological relics, sculptures, ceramics, calligraphy, costumes and paintings. It is housed in the spacious galleries of the Heisei Chishinkan, a building designed by Taniguchi Yoshio and opened in 2014. The architect is also known for the Horyuji Homotsukan at the Tokyo National Museum, the Sea Life Aquarium at Tokyo\'s Kasai Rinkai Park, the Mimoca Art Museum in Marugame and his redesign of the Museum of Modern Art in New York.</string>
+    <string name="the_museum_of_kyoto_text">The Museum of Kyoto</string>
+    <string name="the_museum_of_kyoto_description">This museum offers a very attractive permanent exhibition about the history of Kyoto, although its floor space is relatively small, and information in English is limited, making it difficult to fully appreciate without Japanese reading skills. In addition, special exhibitions are held periodically.</string>
+    <string name="attraction_museum_tab_text">Museums</string>
+    <string name="attraction_cherry_tab_text">Cherry Blossom Spots</string>
+    <string name="philosophers_path_text">Philosopher\'s Path</string>
+    <string name="philosophers_path_description">The Philosopher\'s Path (哲学の道, Tetsugaku no michi) is a pleasant stone path through the northern part of Kyoto\'s Higashiyama district. The path follows a canal which is lined by hundreds of cherry trees. Usually in early April these trees explode with color, making this one of the city\'s most popular hanami (cherry blossom viewing) spots.
+
+Approximately two kilometers long, the path begins around Ginkakuji (Silver Pavilion) and ends in the neighborhood of Nanzenji. The path gets its name due to Nishida Kitaro, one of Japan\'s most famous philosophers, who was said to practice meditation while walking this route on his daily commute to Kyoto University.</string>
+    <string name="maruyama_park_description">Maruyama Park (円山公園, Maruyama Kōen) is a public park next to Yasaka Shrine in the Higashiyama District. In the first half of April, when the cherry trees are in full bloom, the park becomes Kyoto\'s most popular and most crowded spot for cherry blossom viewing parties (hanami). The centerpiece of the park is a tall shidarezakura (weeping cherry tree), which gets lit up in the night.</string>
+    <string name="maruyama_park_text">Maruyama Park</string>
+
+</resources>
