@@ -44,7 +44,7 @@ public class PointOfInterest {
         this.imageId = imageId;
     }
 
-    public boolean hasImage(){
+    public boolean hasImage() {
 
         return (this.imageId != nullImage);
 

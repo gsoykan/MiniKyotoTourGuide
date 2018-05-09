@@ -18,31 +18,26 @@ public class CherryFragment extends Fragment {
 
 
     public CherryFragment() {
-        // Required empty public constructor
+
     }
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+
         View rootView = inflater.inflate(R.layout.fragment_cherry, container, false);
-
-
         POIListAdapter adapter = new POIListAdapter(getActivity());
         adapter.setPOISet(createThePOISet());
         ListView listView = rootView.findViewById(R.id.cherry_list_view);
         listView.setAdapter(adapter);
-
-        return  rootView;
+        return rootView;
     }
 
-    public ArrayList<PointOfInterest> createThePOISet(){
+    public ArrayList<PointOfInterest> createThePOISet() {
         ArrayList<PointOfInterest> attractionPOIs = new ArrayList<>();
-
-        attractionPOIs.add(new PointOfInterest(getString(R.string.philosophers_path_text),getString(R.string.philosophers_path_description),R.drawable.philosopherspath ));
-        attractionPOIs.add(new PointOfInterest(getString(R.string.maruyama_park_text),getString(R.string.maruyama_park_description),R.drawable.maruyamapark));
-
+        attractionPOIs.add(new PointOfInterest(getString(R.string.philosophers_path_text), getString(R.string.philosophers_path_description), R.drawable.philosopherspath));
+        attractionPOIs.add(new PointOfInterest(getString(R.string.maruyama_park_text), getString(R.string.maruyama_park_description), R.drawable.maruyamapark));
         return attractionPOIs;
 
     }

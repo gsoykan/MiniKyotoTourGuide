@@ -21,11 +21,6 @@ public class POIListAdapter extends BaseAdapter {
 
     public POIListAdapter(Context context) {
         mContext = context;
-      //  mInflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-    }
-
-    public ArrayList<PointOfInterest> getPOISet() {
-        return POISet;
     }
 
     public void setPOISet(ArrayList<PointOfInterest> POISet) {
@@ -54,21 +49,17 @@ public class POIListAdapter extends BaseAdapter {
             view = LayoutInflater.from(mContext).inflate(R.layout.attraction_card, viewGroup, false);
         }
 
-
-
         TextView nameTextField = view.findViewById(R.id.card_name_text_view);
         TextView description = view.findViewById(R.id.card_description_text_view);
         ImageView POIImage = view.findViewById(R.id.card_image_view);
-
         nameTextField.setText(POISet.get(i).getName());
         description.setText(POISet.get(i).getDescription());
 
-        if(POISet.get(i).hasImage()){
+        if (POISet.get(i).hasImage()) {
             POIImage.setImageResource(POISet.get(i).getImageId());
-        }else {
+        } else {
             POIImage.setVisibility(View.GONE);
         }
-
         return view;
     }
 }

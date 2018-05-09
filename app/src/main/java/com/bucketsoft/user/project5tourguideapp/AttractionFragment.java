@@ -10,39 +10,27 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-
-/**
- * A simple {@link Fragment} subclass.
- */
 public class AttractionFragment extends Fragment {
 
-
     public AttractionFragment() {
-        // Required empty public constructor
-    }
 
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_attraction, container, false);
-
-
         POIListAdapter adapter = new POIListAdapter(getActivity());
         adapter.setPOISet(createThePOISet());
         ListView listView = rootView.findViewById(R.id.attraction_list_view);
         listView.setAdapter(adapter);
-
-        return  rootView;
+        return rootView;
     }
 
-    public ArrayList<PointOfInterest> createThePOISet(){
+    public ArrayList<PointOfInterest> createThePOISet() {
         ArrayList<PointOfInterest> attractionPOIs = new ArrayList<>();
-
-        attractionPOIs.add(new PointOfInterest(getString(R.string.fushimi_inari_shrine_text),getString(R.string.fushimi_inari_shrine_description),R.drawable.fushimiinarishrine ));
-        attractionPOIs.add(new PointOfInterest(getString(R.string.kinkakuji_text),getString(R.string.kinkakuji_description),R.drawable.kinkakuji));
-
+        attractionPOIs.add(new PointOfInterest(getString(R.string.fushimi_inari_shrine_text), getString(R.string.fushimi_inari_shrine_description), R.drawable.fushimiinarishrine));
+        attractionPOIs.add(new PointOfInterest(getString(R.string.kinkakuji_text), getString(R.string.kinkakuji_description), R.drawable.kinkakuji));
         return attractionPOIs;
 
     }

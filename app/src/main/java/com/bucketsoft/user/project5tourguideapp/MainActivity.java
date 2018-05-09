@@ -12,15 +12,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        ViewPager viewPager =  findViewById(R.id.viewpager);
-
-        AttractionFragmentPagerAdapter adapter = new AttractionFragmentPagerAdapter(this,getSupportFragmentManager());
-
+        ViewPager viewPager = findViewById(R.id.viewpager);
+        AttractionFragmentPagerAdapter adapter = new AttractionFragmentPagerAdapter(this, getSupportFragmentManager());
         viewPager.setAdapter(adapter);
-
         TabLayout tabLayout = findViewById(R.id.sliding_tabs);
-
         tabLayout.setupWithViewPager(viewPager);
 
     }
